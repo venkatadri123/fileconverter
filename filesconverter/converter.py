@@ -89,12 +89,3 @@ class FileConverter:
                 print(f"environment variable name: {value} is exported")
             except Exception as e:
                 print(f"ERROR: while exporting env {value}: {self.data.get(value)} to the system", e)
-
-
-obj = FileConverter("D:\\fileconverter\\tests\\fixtures\\test.cfg")
-obj.convert()
-print(obj.data)
-obj.get_configuration("new_file.json")
-obj.set_configuration()
-
-print(os.path.exists('new_file.json'))
