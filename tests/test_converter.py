@@ -2,7 +2,7 @@ import os
 from unittest import TestCase
 
 from tests.fixtures import constants
-from file_converter import converter
+from filesconverter import converter
 
 
 class TestConverter(TestCase):
