@@ -71,7 +71,7 @@ class FileConverter:
         if ".env" in file_path:
             with open(file_path, 'w', encoding='utf-8') as file:
                 for val in self.data:
-                    file.write(f"{val}={self.data.get(val)}"\n)
+                    file.write(f"{val}={self.data.get(val)}\n")
                 print(f"file generated: {file_path}")
         # else considering the file extension as json and creating file and dumping data
         else:
