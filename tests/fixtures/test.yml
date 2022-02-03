@@ -1,0 +1,11 @@
+name: 'SkySlopeV2'
+description: 'SkySlope V2 Ingestion Source'
+fields:
+  - slug: 'TypeOfSale'
+    name: 'objectType'
+    type: 'list'
+    allowed:
+      - 'Sale'
+      - 'Listing'
+    trigger_field: true
+    dynamic_field: true
