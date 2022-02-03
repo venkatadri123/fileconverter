@@ -18,7 +18,7 @@ To call an library you must create a object.
 # Example
 if you want to convert a yml file to json you need to import the library and create an object 
 
-from file_converter.converter import FileConverter
+```from file_converter.converter import FileConverter```
 
 <!-- Invoking the FileConverter class by passing file_path -->
 ```conver_object = FileConverter("file_name.yml")```
