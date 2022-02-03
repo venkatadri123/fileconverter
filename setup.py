@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 setup(
     name='file_converter',
     packages=find_packages(include=['file_converter']),
-    version='0.6.0',
+    version='1.6.0',
     description='File Converted Library',
     install_requires=[],
     setup_requires=['pytest-runner'],
