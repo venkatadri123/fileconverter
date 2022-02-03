@@ -44,7 +44,7 @@ class TestConverterNegetive(TestCase):
         # Give invalid key 'log_names' has a type - the correct key is 'log_name'
         self.object.convert()
         assert self.object.data is None
-        assert self.object.error == constants.error1
+        assert self.object.error == constants.err
 
     def test_negetive_getconfiguration(self):
         # Give invalid key 'log_names' has a type - the correct key is 'log_name'

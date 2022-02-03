@@ -23,10 +23,10 @@ class FileConverter:
             self.data = self.__yml_to_dict()
         # checking file formate is .yfg or .config then calling config_to_dict method and
         # assigning that result in self.data
-        elif ".cfg" in self.file_name.lower() or ".config" in self.file_name.lower():
+        elif ".cfg" in self.file_name.lower() or ".config" in self.file_name.lower() or ".conf" in self.file_name.lower():
             self.data = self.__config_to_dict()
         else:
-            self.error = "Please give valid file_path with extention ex: .env,.json"
+            self.error = "Please give valid file_path with extention ex: .yml,.cfg or .conf"
             print(self.error)
 
     # This is private method it can't able to access out side of the class

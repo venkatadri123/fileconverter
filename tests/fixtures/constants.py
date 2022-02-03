@@ -17,6 +17,8 @@ new_name = "new_file.json"
 
 new_name_env = "new_file.env"
 
+err = "Please give valid file_path with extention ex: .yml,.cfg or .conf"
+
 error1 = "Please give valid file_path with extention ex: .env,.json"
 
 neg_new_name_env = "new_file.txt"
